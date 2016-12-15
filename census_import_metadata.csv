@@ -1,0 +1,56 @@
+Table,FieldName,ImportedFieldName
+DP02,Id,GEO_id
+DP02,Id2,GEO_id2
+DP02,Geography,Geography
+DP02,Estimate; PLACE OF BIRTH - Total population,Estimate; PLACE OF BIRTH - Total population
+DP02,Percent; PLACE OF BIRTH - Total population - Foreign born,Percent; PLACE OF BIRTH - Foreign born
+DP02,Estimate; LANGUAGE SPOKEN AT HOME - Population 5 years and over,Estimate; LANGUAGE SPOKEN AT HOME - Population 5 years and over
+DP02,Percent; LANGUAGE SPOKEN AT HOME - Population 5 years and over - Spanish,Percent; LANGUAGE SPOKEN AT HOME - Spanish
+DP02,Percent; LANGUAGE SPOKEN AT HOME - Population 5 years and over - Other Indo-European languages,Percent; LANGUAGE SPOKEN AT HOME - Other Indo-European languages
+DP02,Percent; LANGUAGE SPOKEN AT HOME - Population 5 years and over - Asian and Pacific Islander languages,Percent; LANGUAGE SPOKEN AT HOME - Asian and Pacific Islander languages
+DP03,Id,GEO_id_DP03
+DP03,Estimate; EMPLOYMENT STATUS - Population 16 years and over,Estimate; EMPLOYMENT STATUS - Population 16 years and over
+DP03,Percent; EMPLOYMENT STATUS - Population 16 years and over - In labor force - Civilian labor force - Unemployed,Percent; EMPLOYMENT STATUS - Unemployed
+DP03,Estimate; INCOME AND BENEFITS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Total households,Estimate; INCOME AND BENEFITS - Total households
+DP03,Estimate; INCOME AND BENEFITS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Total households - Median household income (dollars),Estimate; INCOME AND BENEFITS - Median household income (dollars)
+DP03,Estimate; INCOME AND BENEFITS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Families,Estimate; INCOME AND BENEFITS - Families
+DP03,Estimate; INCOME AND BENEFITS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Families - Median family income (dollars),Estimate; INCOME AND BENEFITS - Median family income (dollars)
+DP03,Estimate; INCOME AND BENEFITS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Per capita income (dollars),Estimate; INCOME AND BENEFITS - Per capita income (dollars)
+DP03,Percent; PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL - All families,Percent; Families with income below poverty level
+DP03,Percent; PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL - All people,Percent; People with income below poverty level
+DP04,Id,GEO_id_DP04
+DP04,Estimate; HOUSING TENURE - Occupied housing units,Estimate; HOUSING TENURE - Occupied housing units
+DP04,Percent; HOUSING TENURE - Occupied housing units - Owner-occupied,Percent; HOUSING TENURE - Owner-occupied
+DP04,Percent; HOUSING TENURE - Occupied housing units - Renter-occupied,Percent; HOUSING TENURE - Renter-occupied
+DP04,Estimate; HOUSING TENURE - Average household size of owner-occupied unit,Estimate; HOUSING TENURE - Average household size of owner-occupied unit
+DP04,Estimate; HOUSING TENURE - Average household size of renter-occupied unit,Estimate; HOUSING TENURE - Average household size of renter-occupied unit
+DP04,Percent; YEAR HOUSEHOLDER MOVED INTO UNIT - Occupied housing units - Moved in 2010 or later,Percent; YEAR HOUSEHOLDER MOVED INTO UNIT - Occupied housing units - Moved in 2010 or later
+DP04,Estimate; VALUE - Owner-occupied units,Estimate; VALUE - Owner-occupied units
+DP04,Estimate; VALUE - Owner-occupied units - Median (dollars),Estimate; VALUE - Owner-occupied units - Median (dollars)
+DP04,Percent; MORTGAGE STATUS - Owner-occupied units - Housing units with a mortgage,Percent; MORTGAGE STATUS - Housing units with a mortgage
+DP04,Percent; MORTGAGE STATUS - Owner-occupied units - Housing units without a mortgage,Percent; MORTGAGE STATUS - Housing units without a mortgage
+DP04,Estimate; SELECTED MONTHLY OWNER COSTS (SMOC) - Housing units with a mortgage - Median (dollars),Estimate; SELECTED MONTHLY OWNER COSTS (SMOC) - Housing units with a mortgage - Median (dollars)
+DP04,Estimate; SELECTED MONTHLY OWNER COSTS (SMOC) - Housing units without a mortgage - Median (dollars),Estimate; SELECTED MONTHLY OWNER COSTS (SMOC) - Housing units without a mortgage - Median (dollars)
+DP04,Estimate; GROSS RENT - Occupied units paying rent,Estimate; GROSS RENT - Occupied units paying rent
+DP04,Estimate; GROSS RENT - Occupied units paying rent - Median (dollars),Estimate; GROSS RENT - Median (dollars)
+DP05,Id,GEO_id_DP05
+DP05,Estimate; SEX AND AGE - Median age (years),Estimate; SEX AND AGE - Median age (years)
+DP05,Estimate; HISPANIC OR LATINO AND RACE - Total population,Estimate; HISPANIC OR LATINO AND RACE - Total population
+DP05,Percent; HISPANIC OR LATINO AND RACE - Total population - Hispanic or Latino (of any race),Percent; HISPANIC OR LATINO AND RACE - Hispanic or Latino (of any race)
+DP05,Percent; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino,Percent; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino
+DP05,Percent; HISPANIC OR LATINO AND RACE - Total population - Not Hispanic or Latino - White alone,Percent; HISPANIC OR LATINO AND RACE - Not Hispanic or Latino - White alone
+S1501,Id,GEO_id_S1501
+S1501,Total; Estimate; Population 25 years and over,Total; Estimate; Population 25 years and over
+S1501,Total; Estimate; Percent high school graduate or higher,Total; Estimate; Percent high school graduate or higher
+S1501,Total; Estimate; Percent bachelor's degree or higher,Total; Estimate; Percent bachelor's degree or higher
+S1501,Total; Estimate; POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL - Less than high school graduate,Total; Estimate; POVERTY RATE 25 YEARS AND OVER - Less than high school graduate
+S1501,Total; Estimate; POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL - High school graduate (includes equivalency),Total; Estimate; POVERTY RATE 25 YEARS AND OVER - High school graduate
+S1501,Total; Estimate; POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL - Some college or associate's degree,Total; Estimate; POVERTY RATE 25 YEARS AND OVER - Some college or associate's degree
+S1501,Total; Estimate; POVERTY RATE FOR THE POPULATION 25 YEARS AND OVER FOR WHOM POVERTY STATUS IS DETERMINED BY EDUCATIONAL ATTAINMENT LEVEL - Bachelor's degree or higher,Total; Estimate; POVERTY RATE 25 YEARS AND OVER - Bachelor's degree or higher
+S1501,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Population 25 years and over with earnings,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS - Population 25 years and over with earnings
+S1501,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Population 25 years and over with earnings - Less than high school graduate,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS - Less than high school graduate
+S1501,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Population 25 years and over with earnings - High school graduate (includes equivalency),Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS - High school graduate
+S1501,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Population 25 years and over with earnings - Some college or associate's degree,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS - Some college or associate's degree
+S1501,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Population 25 years and over with earnings - Bachelor's degree,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS - Bachelor's degree
+S1501,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2013 INFLATION-ADJUSTED DOLLARS) - Population 25 years and over with earnings - Graduate or professional degree,Total; Estimate; MEDIAN EARNINGS IN THE PAST 12 MONTHS - Graduate or professional degree
+S1501,Total; Estimate; PERCENT IMPUTED - Educational attainment,Total; Estimate; PERCENT IMPUTED - Educational attainment
