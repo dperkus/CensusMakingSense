@@ -1,3 +1,4 @@
+# Acquiring the data
 ##Census web site "American Factfinder"
 * http://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
 
@@ -21,3 +22,39 @@
 * click download
 * unzip
 
+# Prepping the data
+## Which columns to use?  
+It depends . . .
+
+Here is the list of columns that I used for my project 
+https://github.com/dperkus/CensusMakingSense/blob/master/census_import_metadata.csv
+
+## Pseudocode
+for csvfile in csvfiles
+  read csvfile
+  keep only the "useful fields"
+       if 'Percent' in field_name or \
+          'PERCENT' in field_name or \
+          'POVERTY RATE' in field_name:
+           # its a percentage; convert to decimal value
+       else :
+           if 'Estimate' in field_name:
+                                    if '+' in val or '-' in val :
+                                        warn = 'WARNING: TRUNCATING + or - ', \
+                                            fid, field_name, val
+                                        warnings[warn] +=1
+                                        val = val.rstrip('+-').replace(',','')
+                                    if '.' in val :
+                                        v = round(float(val), 2)    
+                                    else :
+                                        # it should be an integer
+                                        v = int(val)
+            else :
+                 v = val
+                        except :
+                            # not a number
+                            warn = 'WARNING: EXPECTED A NUMBER; REPLACED BY \'\'', \
+                                   fid, field_name, val
+                            warnings[warn] +=1
+                            v = ''
+                        ret_row.append(v)
