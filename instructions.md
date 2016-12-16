@@ -6,6 +6,7 @@
 ** You can also try "Guided Search" and "Advanced Search"
 
 ## How to download census tables in csv format:
+Here is the list of tables that I used: S1501, DP02, DP03, DP04, DP05
 
 * http://factfinder.census.gov/faces/nav/jsf/pages/download_center.xhtml
 * click on "I know the dataset or tables that I want to download"
@@ -17,8 +18,8 @@
 * Select a geographic type: "Census Tract= 140" or "5-Digit Zip Code Tabulation Area - 860"
 * Select all
 * click "Add to your Selections"
-* click "next"S1501, DP02, DP03, DP04, DP05
-* select the tables that you want to download.  S1501 will be on the 1st or 2nd page.  The DP tables will be on the last page 
+* click "next"
+* select each of the the tables that you want to download.  S1501 will be on the 1st or 2nd page.  The DP tables will be on the last page 
 * click "next"
 * click "OK"
 * it may take several minutes for your download files to be assembled
