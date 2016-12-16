@@ -1,6 +1,9 @@
 # Acquiring the data
 ##Census web site "American Factfinder"
 * http://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
+* Determine which tables contain the information that you need
+** Start with the "popular tables"
+** You can also try "Guided Search" and "Advanced Search"
 
 ## How to download census tables in csv format:
 
@@ -26,35 +29,21 @@
 ## Which columns to use?  
 It depends . . .
 
+Most of the columns will not be useful.
+
 Here is the list of columns that I used for my project 
 https://github.com/dperkus/CensusMakingSense/blob/master/census_import_metadata.csv
 
 ## Pseudocode
+```
 for csvfile in csvfiles
   read csvfile
   keep only the "useful fields"
-       if 'Percent' in field_name or \
-          'PERCENT' in field_name or \
-          'POVERTY RATE' in field_name:
+       if field_name contains 'Percent' or 'PERCENT' or 'POVERTY RATE':
            # its a percentage; convert to decimal value
-       else :
-           if 'Estimate' in field_name:
-                                    if '+' in val or '-' in val :
-                                        warn = 'WARNING: TRUNCATING + or - ', \
-                                            fid, field_name, val
-                                        warnings[warn] +=1
-                                        val = val.rstrip('+-').replace(',','')
-                                    if '.' in val :
-                                        v = round(float(val), 2)    
-                                    else :
-                                        # it should be an integer
-                                        v = int(val)
-            else :
-                 v = val
-                        except :
-                            # not a number
-                            warn = 'WARNING: EXPECTED A NUMBER; REPLACED BY \'\'', \
-                                   fid, field_name, val
-                            warnings[warn] +=1
-                            v = ''
-                        ret_row.append(v)
+       if 'Estimate' in field_name:
+           # strip out '+' or '-'
+       if not a number:
+          #replace with null value
+# Combine the "useful" fields from your csv files into a single table with 1 row per zip code (or census tract)
+```
